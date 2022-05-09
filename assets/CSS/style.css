@@ -1,0 +1,253 @@
+/* Parte Superior - Navbar */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --color-primary: #4d41c0;
+    --bg-gray: rgb(20,30,40);/*#e8e8e8; */
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif; 
+}
+  
+html, body {
+    /* background-color: var(--bg-gray); */
+    background-image: url("https://i.pinimg.com/originals/2f/88/a9/2f88a9427474343f7275e3b8f6fcc2e1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.body {
+    background-color: rgba(20,30,40,0.4);
+}
+
+.body2 {
+    background-image: url("https://www.legiaojovem.com.br/wp-content/uploads/2020/09/estreias-amazon-prime-video-outubro-2020.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header {
+    width: 100%;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-primary);
+    color: #FFF;
+    height: 70px;
+}
+
+.header--left,
+.header--right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header--left img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.header--left h1 {
+    font-size: 24px;
+}
+
+.header--right ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header--right li {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.header--right a {
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.header--right a:hover {
+    border-bottom: 4px solid springgreen;
+    padding-bottom: 20px;
+}
+
+.header--right button {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 6px 15px;
+    background-color: rgb(49, 219, 134);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.header--right button:hover {
+    transform: scale(1.03);
+}
+
+.header--left img,
+.header--right img {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.header--left img:hover,
+.header--right img:hover,
+.header--right a:hover {
+    transform: scale(1.05);
+    color: springgreen;
+}
+
+.menu_mobile {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.menu_mobile div {
+    background-color: #FFF;
+    border-radius: 10px;
+    height: 4px;
+    width: 40px;
+    margin: 3px;
+}
+
+.menu_mobile:hover {
+    transform: scale(1.05);
+}
+
+/* Parte Principal - Main */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_card_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.section_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px 20px;
+    width: 230px;
+    height: 290px;
+    transition: all 0.5s;
+}
+
+.section_card:hover {
+    transform: scale(1.02);
+}
+
+/* Card dos Filmes */
+
+.section_card .section_card--top img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    max-width: 140px;
+    max-height: 160px;
+}
+
+.section_card .section_card--top h3 {
+    color: white;
+    font-size: 11px;
+    font-weight: bold;   
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section_card .section_card--bottom button {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all 0.3s;
+    cursor: pointer;
+    padding: 7px 50px;
+}
+
+.section_card .section_card--bottom button:hover {
+    transform: scale(1.03);
+    color: #FFF;
+    background-color: rgb(38, 219, 128);
+}   
+
+/* Mobile */
+
+@media only screen and (max-width: 740px) {
+
+    .menu_mobile {
+        display: flex;
+    }
+
+    .header--right {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header .header--left h1 {
+        font-size: 18px;
+    }
+
+    .section_card {
+        margin: 20px 20px;
+    }
+
+}
+
+@media only screen and (max-width: 330px) {
+    
+    .header {
+        padding: 0 20px;
+    }
+
+    .header .header--left h1 {
+        font-size: 15px;
+    }
+
+    .menu_mobile div {
+        width: 30px;
+        height: 3px;
+    }
+
+}
