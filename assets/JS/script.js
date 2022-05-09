@@ -23,24 +23,6 @@ function mostrarMenu() {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function mudarTema() {
     let body = document.getElementById("body");
 
