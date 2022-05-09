@@ -42,7 +42,8 @@ function mostrarMenu() {
 
 
 function mudarTema() {
-    let body = document.querySelector("div .body");
+    let body = document.getElementById("body");
+    
     if (body.classList.contains("body")) {
         body.classList.remove("body");
         body.classList.add("body2");
