@@ -19,9 +19,10 @@
 html, body {
     /* background-color: var(--bg-gray); */
     background-image: url("https://i.pinimg.com/originals/2f/88/a9/2f88a9427474343f7275e3b8f6fcc2e1.jpg");
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     height: 100vh;
 }
 
@@ -34,6 +35,7 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 100vh;
 }
 
 header {
