@@ -43,15 +43,12 @@ function mostrarMenu() {
 
 function mudarTema() {
     let body = document.getElementById("body");
-    let header = document.getElementById("header");
 
     if (body.classList.contains("body")) {
         body.classList.remove("body");
         body.classList.add("body2");
-        header.style.backgroundColor = "rgb(10,40,40)";
     } else {
         body.classList.add("body");
         body.classList.remove("body2");
-        header.style.backgroundColor = "#2C5364";
     }
 }
