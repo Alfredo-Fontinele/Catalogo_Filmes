@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-    --color-primary: #4d41c0;
+    --color-primary: rgb(20,30,40);
     --bg-gray: rgb(20,30,40);/*#e8e8e8; */
 }
 
@@ -36,6 +36,12 @@ html, body {
     background-attachment: fixed;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header {
     width: 100%;
     padding: 0 50px;
@@ -44,7 +50,7 @@ html, body {
     align-items: center;
     background-color: var(--color-primary);
     color: #FFF;
-    height: 70px;
+    height: 80px;
 }
 
 .header--left,
@@ -72,6 +78,7 @@ html, body {
 }
 
 .header--right li {
+    align-items: center;
     list-style-type: none;
     margin-right: 20px;
 }
@@ -85,7 +92,7 @@ html, body {
 
 .header--right a:hover {
     border-bottom: 4px solid springgreen;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 .header--right button {
@@ -221,28 +228,20 @@ main {
         display: none;
     }
 
-}
-
-@media only screen and (max-width: 600px) {
-
     .header .header--left h1 {
-        font-size: 18px;
+        font-size: 14px;
     }
 
-    .section_card {
-        margin: 20px 20px;
+    .header--right li {
+        margin-bottom: 20px;
     }
 
 }
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 400px) {
     
     .header {
         padding: 0 20px;
-    }
-
-    .header .header--left h1 {
-        font-size: 15px;
     }
 
     .menu_mobile div {

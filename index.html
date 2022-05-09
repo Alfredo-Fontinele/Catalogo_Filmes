@@ -11,14 +11,14 @@
 <body>
     <div class="body">
         <header>
-            <div class="header">
-                <div class="header--left">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz71COe1o6CMC-9R1MufAyOkqn2QPg_rwGPrsOhNk654kq3w6v21rfZ6LZA__lh8MTxPA&usqp=CAU">
-                    <h1>DS Movie</h1>
+            <div class="header" id="header">
+                <div class="header--left" id="header--left">
+                    <img id="logo_navbar" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz71COe1o6CMC-9R1MufAyOkqn2QPg_rwGPrsOhNk654kq3w6v21rfZ6LZA__lh8MTxPA&usqp=CAU">
+                    <h1 id="logo_navbar_h1">DS Movie</h1>
                 </div>
-                <div class="header--right">
+                <div class="header--right" id="menu_padrao">
                     <nav>
-                        <ul>
+                        <ul id="links">
                             <li><a href="">Home</a></li>
                             <li><a href="">Projetos</a></li>
                             <li><a href="">Empresa</a></li>
@@ -27,7 +27,7 @@
                         </ul>
                     </nav>
                 </div>                
-                <div class="menu_mobile">
+                <div class="menu_mobile" onclick="mostrarMenu()">
                     <div></div>
                     <div></div>
                     <div></div>
