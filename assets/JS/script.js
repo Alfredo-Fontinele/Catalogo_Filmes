@@ -12,13 +12,14 @@ function mostrarMenu() {
         header.style.height = "80px";
         ul.style.flexDirection = "row";
         header_left.style.flexDirection = "row";
-        logo_navbar_h1.style.fontSize = "14px";
+        logo.style.marginRight = "20px";
+        logo_navbar_h1.style.fontSize = "20px";
     } else {
         menu_padrao_id.style.display = "flex";
         header.style.height = "280px";
         ul.style.flexDirection = "column";
         header_left.style.flexDirection = "column";
-        logo.style.margin = "20px";
+        logo.style.marginRight = "20px";
         logo_navbar_h1.style.fontSize = "20px";
     }
 }

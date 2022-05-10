@@ -49,6 +49,8 @@ header {
     background-color: #2C5364;
     color: #FFF;
     height: 80px;
+    position: fixed;
+    top: 0;
 }
 
 .header--left,
@@ -157,7 +159,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin: 50px 30px;
 }
 
 .section_card {
@@ -166,7 +168,7 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    margin: 10px 20px;
+    margin: 20px 20px;
     width: 260px;
     height: 290px;
     transition: all 0.5s;
@@ -215,6 +217,26 @@ main {
     color: #FFF;
     background-color: rgb(38, 219, 128);
 }   
+
+.footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background-color: #2C5364;
+}
+
+.footer p {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.footer p span {
+    color: springgreen;
+}
 
 /* Mobile */
 
