@@ -183,8 +183,8 @@ main {
     align-items: center;
     margin: auto;
     border-radius: 10px;
-    max-width: 180px;
-    max-height: 250px;
+    width: 180px !important;
+    height: 250px !important;
 }
 
 .section_card .section_card--top h3 {
