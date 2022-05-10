@@ -89,7 +89,7 @@ header {
 
 .header--right a:hover {
     border-bottom: 4px solid springgreen;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
 }
 
 .header--right #links button {
@@ -227,7 +227,7 @@ main {
 }
 
 .footer p {
-    font-size: 12px;
+    font-size: 15px;
     margin: 10px 0px;
 }
 
