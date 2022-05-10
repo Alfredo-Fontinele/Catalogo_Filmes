@@ -189,7 +189,7 @@ main {
 
 .section_card .section_card--top h3 {
     color: white;
-    font-size: 11px;
+    font-size: 17px;
     font-weight: bold;   
     text-align: center;
     margin-top: 20px;
@@ -253,6 +253,11 @@ main {
 
     .header--right li {
         margin-bottom: 20px;
+    }
+
+    .header--right a:hover {
+        border-bottom: none;
+        padding-bottom: none;
     }
 
 }
