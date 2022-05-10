@@ -26,12 +26,16 @@ function mostrarMenu() {
 
 function mudarTema() {
     let body = document.getElementById("body");
+    let h3 = document.querySelector(".section_card--top_h3 h3");
 
     if (body.classList.contains("body")) {
         body.classList.remove("body");
         body.classList.add("body2");
+        h3.style.color = "#222";
+        
     } else {
         body.classList.add("body");
         body.classList.remove("body2");
+        h3.style.color = "#FFF";
     }
 }
