@@ -10,6 +10,7 @@ function mostrarMenu() {
     if (menu_padrao_id.style.display == "flex") {
         menu_padrao_id.style.display = "none";
         header.style.height = "100px";
+        header.style.background = background;
         ul.style.flexDirection = "row";
         header_left.style.flexDirection = "row";
         logo.style.marginRight = "20px";
@@ -25,12 +26,11 @@ function mostrarMenu() {
 }
 
 function mudarTema() {
-    let body = document.getElementById("body");
+    let body = document.getElementById("body");    
 
     if (body.classList.contains("body")) {
         body.classList.remove("body");
         body.classList.add("body2");
-        
     } else {
         body.classList.add("body");
         body.classList.remove("body2");
