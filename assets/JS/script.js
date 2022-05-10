@@ -19,7 +19,7 @@ function mostrarMenu() {
         ul.style.flexDirection = "column";
         header_left.style.flexDirection = "column";
         logo.style.margin = "20px";
-        logo_navbar_h1.style.fontSize = "14px";
+        logo_navbar_h1.style.fontSize = "20px";
     }
 }
 
