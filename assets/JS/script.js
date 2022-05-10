@@ -1,7 +1,6 @@
 function mostrarMenu() {
 
     let menu_padrao_id = document.getElementById("menu_padrao");
-    let logo_navbar_h1 = document.getElementById("logo_navbar_h1");
     let header_left = document.getElementById("header--left");
     let header = document.getElementById("header");
     let logo = document.getElementById("logo_navbar");
@@ -13,14 +12,13 @@ function mostrarMenu() {
         ul.style.flexDirection = "row";
         header_left.style.flexDirection = "row";
         logo.style.marginRight = "20px";
-        logo_navbar_h1.style.fontSize = "20px";
+        
     } else {
         menu_padrao_id.style.display = "flex";
         header.style.height = "280px";
         ul.style.flexDirection = "column";
         header_left.style.flexDirection = "column";
         logo.style.marginRight = "20px";
-        logo_navbar_h1.style.fontSize = "20px";
     }
 }
 
