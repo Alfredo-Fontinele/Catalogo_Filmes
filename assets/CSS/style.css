@@ -171,8 +171,8 @@ main {
     align-items: center;
     border-radius: 10px;
     margin: 30px 20px;
-    width: 290px;
-    height: 320px;
+    width: 260px;
+    height: 290px;
     transition: all 0.5s;
 }
 
@@ -188,8 +188,8 @@ main {
     align-items: center;
     margin: auto;
     border-radius: 10px;
-    width: 150px;
-    height: 220px;
+    width: 180px;
+    height: 250px;
 }
 
 .section_card .section_card--top h3 {
