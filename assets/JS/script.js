@@ -9,7 +9,7 @@ function mostrarMenu() {
 
     if (menu_padrao_id.style.display == "flex") {
         menu_padrao_id.style.display = "none";
-        header.style.height = "80px";
+        header.style.height = "100px";
         ul.style.flexDirection = "row";
         header_left.style.flexDirection = "row";
         logo.style.marginRight = "20px";

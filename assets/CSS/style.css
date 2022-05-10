@@ -44,7 +44,7 @@ header {
     align-items: center;
     background-color: rgb(20,30,40);
     color: #FFF;
-    height: 80px;
+    height: 100px;
     position: fixed;
     z-index: 999;
     top: 0;
