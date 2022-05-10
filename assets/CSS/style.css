@@ -26,7 +26,7 @@ html, body {
 }
 
 .body2 {
-    background-color: rgb(20,30,40);
+    background-color: #2C5364;
     /* background-image: url("https://www.legiaojovem.com.br/wp-content/uploads/2020/09/estreias-amazon-prime-video-outubro-2020.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -38,6 +38,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .header {
@@ -46,10 +47,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2C5364;
+    background-color: rgb(20,30,40);
     color: #FFF;
     height: 80px;
     position: fixed;
+    z-index: 999;
     top: 0;
 }
 
@@ -226,7 +228,7 @@ main {
     align-items: center;
     height: 200px;
     width: 100%;
-    background-color: #2C5364;
+    background-color: rgb(20,30,40);
 }
 
 .footer p {
