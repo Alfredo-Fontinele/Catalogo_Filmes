@@ -210,10 +210,10 @@ main {
     font-weight: bold;   
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
-.section_card .section_card--bottom button {
+.section_card .section_card--bottom a {
     background-color: slateblue;
     color: #FFF;
     border-radius: 5px;
@@ -221,12 +221,13 @@ main {
     outline: none;
     font-size: 17px;
     font-weight: bold;
+    text-decoration: none;
     transition: all 0.3s;
     cursor: pointer;
     padding: 15px 75px;
 }
 
-.section_card .section_card--bottom button:hover {
+.section_card .section_card--bottom a:hover {
     transform: scale(1.03);
     color: #FFF;
     background-color: rgb(38, 219, 128);
