@@ -12,7 +12,6 @@
 }
   
 html, body {
-    /* background-color: var(--bg-gray); */
     background-image: url("https://i.pinimg.com/originals/2f/88/a9/2f88a9427474343f7275e3b8f6fcc2e1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -239,7 +238,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 300px;
     width: 100%;
     background-color: rgb(20,30,40);
 }
