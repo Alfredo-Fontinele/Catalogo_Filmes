@@ -1,5 +1,4 @@
 function mostrarMenu() {
-
     let menu_padrao_id = document.getElementById("menu_padrao");
     let header_left = document.getElementById("header--left");
     let header = document.getElementById("header");
