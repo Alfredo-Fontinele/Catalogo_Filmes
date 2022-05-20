@@ -1,25 +1,10 @@
-function mostrarMenu() {
-    let menu_padrao_id = document.getElementById("menu_padrao");
-    let header_left = document.getElementById("header--left");
-    let header = document.getElementById("header");
-    let logo = document.getElementById("logo_navbar");
-    let ul = document.getElementById("links");
+const navbar = document.querySelector(".header--right");
+const button = document.querySelector(".menu_mobile");
 
-    if (menu_padrao_id.style.display == "flex") {
-        menu_padrao_id.style.display = "none";
-        header.style.height = "100px";
-        ul.style.flexDirection = "row";
-        header_left.style.flexDirection = "row";
-        logo.style.marginRight = "20px";
-        
-    } else {
-        menu_padrao_id.style.display = "flex";
-        header.style.height = "280px";
-        ul.style.flexDirection = "column";
-        header_left.style.flexDirection = "column";
-        logo.style.marginRight = "20px";
-    }
-}
+button.addEventListener("click", () => {
+    navbar.classList.toggle("active");
+})
+
 
 function mudarTema() {
     let body = document.getElementById("body");    

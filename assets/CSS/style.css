@@ -19,7 +19,7 @@ html, body {
     height: 100vh;
 }
 
-.active {
+.active_border {
     border-bottom: 6px solid springgreen;
     padding-bottom: 32px;
 }
@@ -155,9 +155,9 @@ header {
 .menu_mobile div {
     background-color: #FFF;
     border-radius: 10px;
-    height: 4px;
+    height: 5px;
     width: 40px;
-    margin: 3px;
+    margin: 5px;
 }
 
 .menu_mobile:hover {
@@ -262,17 +262,50 @@ main {
 
 @media only screen and (max-width: 990px) {
 
-    .active {
+    .active_border {
         border-bottom: none;
         padding-bottom: none;
     }
 
     .menu_mobile {
+        display: block;
+    }
+    
+    .header--right nav {
         display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .header--right ul {
+        flex-direction: column;
+    }
+
+    .header--right ul li {
+        margin: 30px 0;
+    }
+
+    .header--right ul li a {
+        font-size: 25px;
+    }
+
+    .header--right #links button {
+        padding: 20px 40px;
     }
 
     .header--right {
-        display: none;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        top: 100px;
+        left: 100%;
+        height: calc(100vh - 100px);
+        background-color: rgba(20,30,40,0.9);
+        transition: all 200ms ease-in;
+    }
+
+    .header--right.active {
+        left: 0;
     }
 
     .header .header--left h1 {
@@ -304,7 +337,11 @@ main {
     }
 
     .header .header--right a {
-        font-size: 14px;
+        font-size: 17px;
+    }
+
+    .header .header--right #links button {
+        padding: 15px 30px;
     }
 
     .menu_mobile div {
