@@ -113,20 +113,21 @@ header {
     padding-bottom: 32px;
 }
 
-.header--right #links button {
+.header--right button {
+    background-color: slateblue;
     font-size: 15px;
     font-weight: bold;
     color: white;
     border: none;
     outline: none;
     border-radius: 20px;
-    padding: 6px 15px;
-    background-color: rgb(49, 219, 134);
+    padding: 10px 20px;
     cursor: pointer;
     transition: all 0.3s;
 }
 
 .header--right button:hover {
+    background-color: rgb(49, 219, 134);
     transform: scale(1.03);
 }
 
@@ -260,7 +261,7 @@ main {
 
 /* Mobile */
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 1160px) {
 
     .active_border {
         border-bottom: none;
