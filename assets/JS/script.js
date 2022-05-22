@@ -1,8 +1,8 @@
 let count = 0;
-const audio = document.querySelector("audio");
-const btn_music = document.querySelector("button");
 
 function ativarMusica() {
+    const audio = document.querySelector("audio");
+    const btn_music = document.querySelector("button");
     if (count == 0) {
         count = 1;
         audio.currentTime = 0.1;
