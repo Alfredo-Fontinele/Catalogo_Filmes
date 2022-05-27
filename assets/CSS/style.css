@@ -283,16 +283,12 @@ main {
         flex-direction: column;
     }
 
-    .header--right ul li {
-        margin: 30px 0;
+    .header--right li {
+        margin: 15px 0;
     }
 
-    .header--right ul li a {
-        font-size: 25px;
-    }
-
-    .header--right #links button {
-        padding: 20px 40px;
+    .header--right a {
+        font-size: 20px;
     }
 
     .header--right {
