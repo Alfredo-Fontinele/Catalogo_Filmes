@@ -344,8 +344,9 @@ main {
 
     .menu_mobile div {
         border-radius: 20px;
-        height: 4px;
-        margin: 7px;
+        width: 37px;
+        height: 5px;
+        margin: 6px;
     }
 
 }
