@@ -262,7 +262,7 @@ main {
 
 /* Mobile */
 
-@media only screen and (max-width: 1160px) {
+@media only screen and (max-width: 1200px) {
 
     .active_border {
         border-bottom: none;
