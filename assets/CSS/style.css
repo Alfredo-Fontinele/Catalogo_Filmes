@@ -155,10 +155,10 @@ header {
 }
 
 .menu_mobile div {
-    background-color: #FFF;
+    background-color: springgreen;
     border-radius: 10px;
     height: 6px;
-    width: 40px;
+    width: 50px;
     margin: 7px;
 }
 
@@ -325,7 +325,7 @@ main {
 @media only screen and (max-width: 500px) {
     
     .header {
-        padding: 0 10px;
+        padding: 0 20px;
     }
 
     .header .header--left h1 {
@@ -343,8 +343,9 @@ main {
     }
 
     .menu_mobile div {
-        width: 35px;
-        height: 3px;
+        border-radius: 20px;
+        height: 4px;
+        margin: 7px;
     }
 
 }
